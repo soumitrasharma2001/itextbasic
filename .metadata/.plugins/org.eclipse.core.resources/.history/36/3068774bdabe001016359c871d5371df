@@ -1,7 +1,0 @@
-package com.itextdemo.basic;
-
-public class ArrayTablePro {
-	public static void main(String[] args) {
-		
-	}
-}
