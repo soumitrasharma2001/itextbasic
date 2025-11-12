@@ -1,0 +1,17 @@
+package com.itextdemo.basic;
+
+import java.io.FileNotFoundException;
+
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+
+public class EmbedFontPro {
+	public static final String MOMO_SIGNATURE="fonts\\MomoSignature-Regular.ttf";
+	public static final String PLAYFAIR_DISPLAY="fonts\\PlayfairDisplay-VariableFont_wght.ttf";
+	public static void main(String[] args) throws FileNotFoundException {
+		Document doc=new Document(new PdfDocument(new PdfWriter("sample.pdf")));
+		
+		doc.close();
+	}
+}

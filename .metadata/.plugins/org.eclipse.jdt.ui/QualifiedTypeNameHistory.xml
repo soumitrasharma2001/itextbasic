@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="com.itextpdf.text.pdf.PdfWriter"/>
+    <fullyQualifiedTypeName name="com.itextpdf.io.image.ImageDataFactory"/>
+    <fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.element.Image"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.text.StyleConstants.FontConstants"/>
+    <fullyQualifiedTypeName name="com.itextpdf.io.font.FontProgram"/>
+    <fullyQualifiedTypeName name="com.itextpdf.io.font.PdfEncodings"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.color.ColorSpace"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.pdf.canvas.PdfCanvasConstants"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.pdf.canvas.PdfCanvasConstants.TextRenderingMode"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.Style"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.colors.Color"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.borders.Border"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.borders.GrooveBorder"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.colors.ColorConstants"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.colors.DeviceRgb"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.element.Cell"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.element.Table"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.element.Paragraph"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.Document"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.pdf.PdfDocument"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.pdf.PdfWriter"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.element.List"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.font.PdfFont"/>
+    <fullyQualifiedTypeName name="com.itextpdf.kernel.font.PdfFontFactory"/>
+    <fullyQualifiedTypeName name="com.itextpdf.io.font.constants.StandardFonts"/>
+    <fullyQualifiedTypeName name="com.itextpdf.layout.element.Text"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,27 @@
+package com.itextdemo.basic;
+
+import java.io.IOException;
+
+import com.itextpdf.kernel.colors.ColorConstants;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.Style;
+import com.itextpdf.layout.element.Paragraph;
+
+public class StylePro {
+	public static void main(String[] args) throws IOException{
+		Style style=new Style()
+				.setFontColor(ColorConstants.BLUE)
+				.setItalic()
+				.setFontSize(4f);
+		
+		Document doc=new Document(new PdfDocument(new PdfWriter("sample.pdf")));
+		doc.add(
+				new Paragraph("Welcome to Itext PDF").addStyle(style)
+		);
+		doc.close();
+		
+		
+	}
+}

@@ -1,0 +1,36 @@
+package com.itextdemo.basic;
+
+import java.io.IOException;
+
+import com.itextpdf.io.font.constants.StandardFonts;
+import com.itextpdf.kernel.font.PdfFont;
+import com.itextpdf.kernel.font.PdfFontFactory;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.List;
+import com.itextpdf.layout.element.Text;
+
+public class ListSymbolPro {
+
+	public static void main(String[] args) throws IOException{
+		List list1=new List()
+				.setListSymbol("\u007E")
+				.add("Item1")
+				.add("Item2")
+				.add("Item3")
+				.add("Item4");
+		
+		PdfFont font=PdfFontFactory.createFont(StandardFonts.ZAPFDINGBATS);
+		List list2=new List()
+				.setListSymbol(new Text("e").setFont(font))
+				.add("Item1")
+				.add("Item2")
+				.add("Item3")
+				.add("Item4");
+		Document doc=new Document(new PdfDocument(new PdfWriter("sample.pdf")));
+		doc.add(list1);
+		doc.close();
+	}
+
+}

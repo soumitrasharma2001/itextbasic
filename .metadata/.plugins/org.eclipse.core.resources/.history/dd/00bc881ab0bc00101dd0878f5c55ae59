@@ -1,0 +1,7 @@
+package com.itextdemo.basic;
+
+public class EmbedFontPro {
+	public static void main(String[] args) {
+		
+	}
+}

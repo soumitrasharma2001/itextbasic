@@ -1,0 +1,32 @@
+package com.itextdemo.basic;
+
+import java.io.IOException;
+import com.itextpdf.kernel.font.PdfFont;
+import com.itextpdf.kernel.font.PdfFontFactory;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Paragraph;
+import com.itextpdf.layout.element.Text;
+
+public class EmbedFontPro {
+    public static final String MOMO_SIGNATURE = "fonts/MomoSignature-Regular.ttf";
+    public static final String PLAYFAIR_DISPLAY = "fonts/PlayfairDisplay-VariableFont_wght.ttf";
+
+    public static void main(String[] args) throws IOException {
+        Document doc = new Document(new PdfDocument(new PdfWriter("sample.pdf")));
+
+        // Correct font loading
+        PdfFont font1 = PdfFontFactory.createFont(MOMO_SIGNATURE);
+        PdfFont font2 = PdfFontFactory.createFont(PLAYFAIR_DISPLAY);
+
+        Paragraph para = new Paragraph()
+                .add(new Text("Soumitra Sharma\n").setFont(font1).setFontSize(24))
+                .add(new Text("Soumitra Sharma").setFont(font2).setFontSize(18));
+
+        doc.add(para);
+        doc.close();
+
+        System.out.println("✅ PDF created successfully with embedded fonts!");
+    }
+}
